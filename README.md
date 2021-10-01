@@ -76,16 +76,6 @@ curl -d "input_1=1&input_2=2&operation=add" -X POST http://localhost:88/api/calc
 }
 ```
 
-#### Example authorized request with token
-
-```bash
-curl --location --request GET "http://localhost:8080/api/profile" \
-  --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjM1ZjQ5NTU1N2QzYmEyNjM5OTQzYmQzY2JlMTU1MTI0NmIyZmJiMzc4NGY2ZTJmNTgwOGZlM2Y3YjNiMGM0ZjlkZTM2MzY2ZGNkZTFhOWJjIn0.eyJhdWQiOiIxIiwianRpIjoiMzVmNDk1NTU3ZDNiYTI2Mzk5NDNiZDNjYmUxNTUxMjQ2YjJmYmIzNzg0ZjZlMmY1ODA4ZmUzZjdiM2IwYzRmOWRlMzYzNjZkY2RlMWE5YmMiLCJpYXQiOjE1NjYyNjQ2NjksIm5iZiI6MTU2NjI2NDY2OSwiZXhwIjoxNTk3ODg3MDY5LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.Xf7HGFczhfbXNMtycA3k9O-0FYYkH4Oj-LLJQm4P5br5DwJOf0ScQ0Gb5wKA2k6T1QuYNy6D4h_wGzCUICuvmFHyQ0pTlkUL_2RjefjHy1mIuTPCUkgxFVjAn0qUIBgakrb_I2OXGgRZlO_00eyYRiSaMBtcuEkRljVpJG8EL8JDdTFFEqgoSXrGDfQqubBEW0_IjDw33NXrFVtK-aJQdkTpGNUwr0aSVMT_GcX7u7vJjvCa3Jc50unGXZI6VDpwxsvndAyuuvu8AbRhmN7TNJhCNynT55m4X0ZY9xLH_WAEoT7uI5ei5DdBAfH1_Ux0nJxHLFGaXI15N_OAw8noVgPSPps8Bbn9fsWu7ZqGvj-2gUupVrWS1FVk5qBYzKnV4Osdsl0pRjVfY9yghIRTCGonxCU_A2Fl-i8OUVPUl6iqGxiko2KBo8qqLWQbT3IkUXyB578DAIqgqfZ9gr122B0J5ukyIYtLLHKo0HqYc9NjB2K11ntfB6SPXJBEY6Xrts8xm_0uT1fJ2pIXuvICtC-cUBDioUZ842ijeOJm4h_vESzsqJXQ4Xp32PCvcjHxO9X9EJe5JnDdHD5nlVDeEl4ZtpBZ4zZeef3yXsdMPxwGGiTrwNMZyLHnzWdiNAhZfo13Pk4z9XswDK8omIdtKuEPAIQXT2Z9Gu4keVaI0fQ" \
-  --header "Content-Type: application/json" \
-  --header "X-Requested-With: XMLHttpRequest" \
-  --data ""
-```
-
 ## Tests
 
 Used a library for printing the result in pretty format `codedungeon/phpunit-result-printer`.
