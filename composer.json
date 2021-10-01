@@ -28,16 +28,12 @@
         }
     },
     "autoload": {
-        "psr-4": {
+        "psr-2": {
             "App\\": "app/"
-        },
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ]
+        }
     },
     "autoload-dev": {
-        "psr-4": {
+        "psr-2": {
             "Tests\\": "tests/"
         }
     },

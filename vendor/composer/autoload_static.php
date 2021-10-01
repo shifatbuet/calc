@@ -39,7 +39,6 @@ class ComposerStaticInit344f48e45cd2581be80fee4a95899f56
         'T' => 
         array (
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
-            'Tests\\' => 6,
         ),
         'S' => 
         array (
@@ -140,10 +139,6 @@ class ComposerStaticInit344f48e45cd2581be80fee4a95899f56
         array (
             'Bakyt\\' => 6,
         ),
-        'A' => 
-        array (
-            'App\\' => 4,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -164,10 +159,6 @@ class ComposerStaticInit344f48e45cd2581be80fee4a95899f56
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
             0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
-        ),
-        'Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Symfony\\Polyfill\\Php81\\' => 
         array (
@@ -409,39 +400,9 @@ class ComposerStaticInit344f48e45cd2581be80fee4a95899f56
         array (
             0 => __DIR__ . '/..' . '/2bj/phanybar/src',
         ),
-        'App\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
-        ),
     );
 
     public static $classMap = array (
-        'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
-        'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
-        'App\\Http\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/Http/Controllers/BaseController.php',
-        'App\\Http\\Controllers\\CalculatorController' => __DIR__ . '/../..' . '/app/Http/Controllers/CalculatorController.php',
-        'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-        'App\\Http\\Factories\\CalculatorFactory' => __DIR__ . '/../..' . '/app/Http/Factories/CalculatorFactory.php',
-        'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
-        'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
-        'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
-        'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
-        'App\\Http\\Middleware\\JsonMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/JsonMiddleware.php',
-        'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
-        'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
-        'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
-        'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
-        'App\\Http\\Operations\\Add' => __DIR__ . '/../..' . '/app/Http/Operations/Add.php',
-        'App\\Http\\Operations\\Divide' => __DIR__ . '/../..' . '/app/Http/Operations/Divide.php',
-        'App\\Http\\Operations\\Multiply' => __DIR__ . '/../..' . '/app/Http/Operations/Multiply.php',
-        'App\\Http\\Operations\\Subtract' => __DIR__ . '/../..' . '/app/Http/Operations/Subtract.php',
-        'App\\Http\\Requests\\CalculatorRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CalculatorRequest.php',
-        'App\\Http\\Services\\CalculatorService' => __DIR__ . '/../..' . '/app/Http/Services/CalculatorService.php',
-        'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
-        'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
-        'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
-        'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
-        'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Bakyt\\Console\\Phanybar' => __DIR__ . '/..' . '/2bj/phanybar/src/Console/Phanybar.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
@@ -3987,9 +3948,6 @@ class ComposerStaticInit344f48e45cd2581be80fee4a95899f56
         'Symfony\\Polyfill\\Php73\\Php73' => __DIR__ . '/..' . '/symfony/polyfill-php73/Php73.php',
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'Symfony\\Polyfill\\Php81\\Php81' => __DIR__ . '/..' . '/symfony/polyfill-php81/Php81.php',
-        'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
-        'Tests\\Feature\\CalculatorTest' => __DIR__ . '/../..' . '/tests/Feature/CalculatorTest.php',
-        'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
