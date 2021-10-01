@@ -135,7 +135,7 @@ tail -f storage/logs/laravel-"`date +'%Y-%m-%d'`".log
 ## Format code
 
 - Find out the files that needs to be fixed :
-```sudo docker exec php-fpm composer sniff ```
+```docker exec php-fpm composer sniff ```
 
 - Fix all the code format : 
-```sudo docker exec php-fpm composer lint ```
+```docker exec php-fpm composer lint ```
