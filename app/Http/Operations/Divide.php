@@ -4,7 +4,6 @@ namespace App\Http\Operations;
 
 use Illuminate\Support\Facades\Log;
 
-
 class Divide
 {
     /**
