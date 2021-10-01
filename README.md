@@ -37,7 +37,7 @@ You can check all the laravel related dependecies [here](https://laravel.com/doc
 3. Install needed packages.<br>
 `docker exec php-fpm composer install`<br>
 4. Storage log permission (sometimes an issue). <br> 
-`sudo chmod -R 777 storage/logs/ `<br>
+`sudo chmod -R 777 bootstrap storage`<br>
 5. Generate key.<br>
 `docker exec php-fpm php artisan key:generate`<br>
 <small>This way is to setup app with docker, but if you want use it without docker just skip second step and replace
