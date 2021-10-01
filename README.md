@@ -30,19 +30,16 @@ You can check all the laravel related dependecies [here](https://laravel.com/doc
 ## Install application.
 
 1. Clone repository and setup.<br>
-`git clone git@github.com:shifatbuet/rest-api.git`<br>
-`cd rest-api`<br>
-`cp .env.example .env`<br>
+`git clone https://github.com/shifatbuet/calc.git`<br>
+`cd calc`<br>
 2. Start docker.<br>
 `docker-compose up -d`
 3. Install needed packages.<br>
 `docker exec php-fpm composer install`<br>
-
 4. Storage log permission (sometimes an issue). <br> 
 `sudo chmod -R 777 storage/logs/ `<br>
 5. Generate key.<br>
 `docker exec php-fpm php artisan key:generate`<br>
-
 <small>This way is to setup app with docker, but if you want use it without docker just skip second step and replace
  from commands `docker exec php-fpm` part. For example 3 step without Docker should look like:<br>
  `composer install`</small>
@@ -50,14 +47,17 @@ You can check all the laravel related dependecies [here](https://laravel.com/doc
 
 ## API Endpoints and Routes
 
+```bash
+docker exec php-fpm php artisan route:list
 ```
-+-----------+----------------------------+-----------------+--------------------------------------------------+--------------+
-| Method    | URI                        | Name      | Action                                                | Middleware    |
-+-----------+----------------------------+-----------------+--------------------------------------------------+--------------+
-| GET|HEAD  | /                          |           | Closure                                               | web           |
-+-----------+----------------------------+-----------------+--------------------------------------------------+--------------+
-| POST      | api/calculate              |           | App\Http\Controllers\CalculatorController@calculate   | api           |
-+-----------+----------------------------+-----------------+--------------------------------------------------+--------------+
+
+```
++--------+----------+---------------+------+-----------------------------------------------------+------------+
+| Domain | Method   | URI           | Name | Action                                              | Middleware |
++--------+----------+---------------+------+-----------------------------------------------------+------------+
+|        | GET|HEAD | /             |      | Closure                                             | web        |
+|        | POST     | api/calculate |      | App\Http\Controllers\CalculatorController@calculate | api        |
++--------+----------+---------------+------+-----------------------------------------------------+------------+
 ```
 
 #### Example calculate request
